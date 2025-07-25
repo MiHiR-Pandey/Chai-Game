@@ -1,5 +1,9 @@
 import streamlit as st
 
+st.set_page_config(
+page_icon=("chai.png")
+)
+
 st.header("Chai Maker")
 st.subheader("A Simple Chai Making Game")
 
